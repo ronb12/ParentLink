@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "firebase deploy"
+    "deploy": "firebase deploy",
+    "setup": "node scripts/setup.js",
+    "deploy:full": "node scripts/deploy.js"
   },
   "keywords": ["education", "communication", "parent", "teacher", "student"],
   "author": "Bradley Virtual Solutions, LLC",
