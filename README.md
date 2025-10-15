@@ -9,6 +9,7 @@ ParentLink is a comprehensive educational communication platform designed to bri
 - Role-based access (Parent/Teacher)
 - User profile management
 - Password protection
+- Forgot password with email reset
 
 ### 💬 Real-time Messaging
 - Direct communication between parents and teachers
