@@ -4,6 +4,7 @@ import { signInUser } from '../firebase/auth';
 import { Eye, EyeOff, Mail, Lock } from 'lucide-react';
 import toast from 'react-hot-toast';
 import LoadingSpinner from '../components/LoadingSpinner';
+import ForgotPassword from '../components/ForgotPassword';
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -12,6 +13,7 @@ const Login = () => {
   });
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [showForgotPassword, setShowForgotPassword] = useState(false);
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -35,6 +37,10 @@ const Login = () => {
       setLoading(false);
     }
   };
+
+  if (showForgotPassword) {
+    return <ForgotPassword onBack={() => setShowForgotPassword(false)} />;
+  }
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
@@ -105,6 +111,17 @@ const Login = () => {
                 </button>
               </div>
             </div>
+          </div>
+
+          <div className="flex items-center justify-between">
+            <div></div>
+            <button
+              type="button"
+              onClick={() => setShowForgotPassword(true)}
+              className="text-sm text-primary-600 hover:text-primary-500"
+            >
+              Forgot your password?
+            </button>
           </div>
 
           <div>

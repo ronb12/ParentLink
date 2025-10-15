@@ -3,7 +3,8 @@ import {
   signInWithEmailAndPassword, 
   signOut, 
   onAuthStateChanged,
-  updateProfile
+  updateProfile,
+  sendPasswordResetEmail
 } from 'firebase/auth';
 import { doc, setDoc, getDoc } from 'firebase/firestore';
 import { auth, db } from './config';
@@ -72,6 +73,15 @@ export const getUserData = async (uid) => {
       return userDoc.data();
     }
     return null;
+  } catch (error) {
+    throw error;
+  }
+};
+
+export const resetPassword = async (email) => {
+  try {
+    await sendPasswordResetEmail(auth, email);
+    return true;
   } catch (error) {
     throw error;
   }

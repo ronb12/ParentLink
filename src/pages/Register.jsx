@@ -4,6 +4,7 @@ import { createUser } from '../firebase/auth';
 import { Eye, EyeOff, Mail, Lock, User, Phone, School, GraduationCap } from 'lucide-react';
 import toast from 'react-hot-toast';
 import LoadingSpinner from '../components/LoadingSpinner';
+import ForgotPassword from '../components/ForgotPassword';
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -20,6 +21,7 @@ const Register = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [showForgotPassword, setShowForgotPassword] = useState(false);
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -82,6 +84,10 @@ const Register = () => {
     'Mathematics', 'English', 'Science', 'Social Studies', 
     'Art', 'Music', 'Physical Education', 'Computer Science'
   ];
+
+  if (showForgotPassword) {
+    return <ForgotPassword onBack={() => setShowForgotPassword(false)} />;
+  }
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
@@ -323,12 +329,22 @@ const Register = () => {
             </button>
           </div>
 
-          <div className="text-center">
+          <div className="text-center space-y-2">
             <p className="text-sm text-gray-600">
               Already have an account?{' '}
               <Link to="/login" className="font-medium text-primary-600 hover:text-primary-500">
                 Sign in here
               </Link>
+            </p>
+            <p className="text-sm text-gray-600">
+              Forgot your password?{' '}
+              <button
+                type="button"
+                onClick={() => setShowForgotPassword(true)}
+                className="font-medium text-primary-600 hover:text-primary-500"
+              >
+                Reset it here
+              </button>
             </p>
           </div>
         </form>
