@@ -16,6 +16,7 @@
     "test:original": "node tests/parentlink-test.js",
     "test:headless": "HEADLESS=true node tests/reliable-test.js",
     "setup:sample-data": "node scripts/add-sample-data.js",
+    "setup:test-data": "node scripts/setup-test-user-data.js",
     "verify:secrets": "node scripts/verify-github-secrets.js"
   },
   "keywords": [

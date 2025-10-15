@@ -5,7 +5,7 @@ import { Plus, User, Mail, Phone, GraduationCap, Users } from 'lucide-react';
 import toast from 'react-hot-toast';
 
 const Students = () => {
-  const { user, userData } = useAuth();
+  const { user, userData, isTeacher } = useAuth();
   const [students, setStudents] = useState([]);
   const [showAddForm, setShowAddForm] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -74,6 +74,21 @@ const Students = () => {
       toast.error('Failed to add student');
     }
   };
+
+  // Access control - only teachers can access this page
+  if (!isTeacher) {
+    return (
+      <div className="flex flex-col items-center justify-center h-64 space-y-4">
+        <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center">
+          <Users className="h-8 w-8 text-red-600" />
+        </div>
+        <h2 className="text-xl font-semibold text-gray-900">Access Denied</h2>
+        <p className="text-gray-600 text-center max-w-md">
+          This page is only accessible to teachers. Parents can view their child's information through the Progress page.
+        </p>
+      </div>
+    );
+  }
 
   if (loading) {
     return (

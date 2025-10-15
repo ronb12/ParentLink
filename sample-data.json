@@ -1,0 +1,283 @@
+{
+  "students": [
+    {
+      "id": "test-student-1",
+      "name": "Emma Johnson",
+      "grade": "3rd Grade",
+      "parentId": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+      "teacherId": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "subjects": ["Mathematics", "English", "Science"],
+      "avatar": "👧",
+      "isTestData": true,
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "test-student-2",
+      "name": "Liam Smith",
+      "grade": "3rd Grade",
+      "parentId": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+      "teacherId": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "subjects": ["Mathematics", "English", "Science"],
+      "avatar": "👦",
+      "isTestData": true,
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "test-student-3",
+      "name": "Sophia Davis",
+      "grade": "3rd Grade",
+      "parentId": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+      "teacherId": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "subjects": ["Mathematics", "English", "Science"],
+      "avatar": "👧",
+      "isTestData": true,
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "test-message-1",
+      "from": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "to": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+      "fromName": "Test Teacher",
+      "toName": "Test Parent",
+      "subject": "Emma's Progress Update",
+      "content": "Hi! I wanted to update you on Emma's excellent progress in mathematics. She has been showing great improvement in problem-solving skills.",
+      "timestamp": "2024-01-13T10:00:00Z",
+      "read": false,
+      "type": "progress_update",
+      "isTestData": true
+    },
+    {
+      "id": "test-message-2",
+      "from": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+      "to": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "fromName": "Test Parent",
+      "toName": "Test Teacher",
+      "subject": "Question about Homework",
+      "content": "Thank you for the update! Emma mentioned she's having some difficulty with the science homework. Could you provide some additional guidance?",
+      "timestamp": "2024-01-14T10:00:00Z",
+      "read": true,
+      "type": "question",
+      "isTestData": true
+    },
+    {
+      "id": "test-message-3",
+      "from": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "to": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+      "fromName": "Test Teacher",
+      "toName": "Test Parent",
+      "subject": "Science Homework Help",
+      "content": "Of course! I'll provide Emma with some additional resources and schedule a brief one-on-one session to help her understand the concepts better.",
+      "timestamp": "2024-01-15T10:00:00Z",
+      "read": false,
+      "type": "response",
+      "isTestData": true
+    }
+  ],
+  "progress": [
+    {
+      "id": "test-progress-1",
+      "studentId": "test-student-1",
+      "studentName": "Emma Johnson",
+      "teacherId": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "parentId": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+      "subject": "Mathematics",
+      "grade": "A",
+      "score": 95,
+      "comments": "Excellent work! Emma shows strong understanding of multiplication and division concepts.",
+      "date": "2024-01-08T10:00:00Z",
+      "createdAt": "2024-01-08T10:00:00Z",
+      "isTestData": true
+    },
+    {
+      "id": "test-progress-2",
+      "studentId": "test-student-1",
+      "studentName": "Emma Johnson",
+      "teacherId": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "parentId": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+      "subject": "English",
+      "grade": "B+",
+      "score": 88,
+      "comments": "Good progress in reading comprehension. Continue practicing vocabulary.",
+      "date": "2024-01-10T10:00:00Z",
+      "createdAt": "2024-01-10T10:00:00Z",
+      "isTestData": true
+    },
+    {
+      "id": "test-progress-3",
+      "studentId": "test-student-1",
+      "studentName": "Emma Johnson",
+      "teacherId": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "parentId": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+      "subject": "Science",
+      "grade": "A-",
+      "score": 92,
+      "comments": "Great understanding of plant life cycles. Keep up the excellent work!",
+      "date": "2024-01-12T10:00:00Z",
+      "createdAt": "2024-01-12T10:00:00Z",
+      "isTestData": true
+    }
+  ],
+  "announcements": [
+    {
+      "id": "test-announcement-1",
+      "title": "Parent-Teacher Conference Week",
+      "content": "Parent-Teacher conferences will be held from March 15-19. Please schedule your appointment through the ParentLink app.",
+      "author": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "authorName": "Test Teacher",
+      "priority": "high",
+      "date": "2024-03-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "readBy": [],
+      "isTestData": true
+    },
+    {
+      "id": "test-announcement-2",
+      "title": "Science Fair Project Guidelines",
+      "content": "Science fair projects are due on March 25th. Please review the guidelines and start working on your projects early.",
+      "author": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "authorName": "Test Teacher",
+      "priority": "medium",
+      "date": "2024-03-25T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "readBy": [],
+      "isTestData": true
+    },
+    {
+      "id": "test-announcement-3",
+      "title": "Spring Break Reminder",
+      "content": "Spring break will be from April 5-9. No classes will be held during this time.",
+      "author": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "authorName": "Test Teacher",
+      "priority": "low",
+      "date": "2024-04-05T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "readBy": [],
+      "isTestData": true
+    }
+  ],
+  "events": [
+    {
+      "id": "test-event-1",
+      "title": "Math Test - Multiplication",
+      "description": "Unit test on multiplication tables and word problems",
+      "date": "2024-01-18T10:00:00Z",
+      "time": "10:00 AM",
+      "location": "Classroom 3A",
+      "type": "test",
+      "createdBy": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "isTestData": true
+    },
+    {
+      "id": "test-event-2",
+      "title": "Science Fair",
+      "description": "Annual science fair showcasing student projects",
+      "date": "2024-01-29T18:00:00Z",
+      "time": "6:00 PM",
+      "location": "School Gymnasium",
+      "type": "event",
+      "createdBy": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "isTestData": true
+    },
+    {
+      "id": "test-event-3",
+      "title": "Field Trip - Natural History Museum",
+      "description": "Educational field trip to learn about dinosaurs and fossils",
+      "date": "2024-02-05T09:00:00Z",
+      "time": "9:00 AM",
+      "location": "Natural History Museum",
+      "type": "field_trip",
+      "createdBy": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "isTestData": true
+    }
+  ],
+  "files": [
+    {
+      "id": "test-file-1",
+      "name": "Math Homework - Week 3.pdf",
+      "type": "homework",
+      "subject": "Mathematics",
+      "uploadedBy": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "uploadedByName": "Test Teacher",
+      "studentId": "test-student-1",
+      "studentName": "Emma Johnson",
+      "url": "https://example.com/files/math-homework-week3.pdf",
+      "size": 245760,
+      "uploadedAt": "2024-01-13T10:00:00Z",
+      "sharedWith": ["jxpPcwosGXV8HeRR4ZrFOjeNv4i1", "cSrXlu92HWVGFrx5MBEMOjNSyw03"],
+      "isTestData": true
+    },
+    {
+      "id": "test-file-2",
+      "name": "Science Project Guidelines.docx",
+      "type": "document",
+      "subject": "Science",
+      "uploadedBy": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "uploadedByName": "Test Teacher",
+      "studentId": null,
+      "studentName": null,
+      "url": "https://example.com/files/science-project-guidelines.docx",
+      "size": 512000,
+      "uploadedAt": "2024-01-10T10:00:00Z",
+      "sharedWith": ["jxpPcwosGXV8HeRR4ZrFOjeNv4i1", "cSrXlu92HWVGFrx5MBEMOjNSyw03"],
+      "isTestData": true
+    },
+    {
+      "id": "test-file-3",
+      "name": "Emma_Science_Project.jpg",
+      "type": "project",
+      "subject": "Science",
+      "uploadedBy": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+      "uploadedByName": "Test Parent",
+      "studentId": "test-student-1",
+      "studentName": "Emma Johnson",
+      "url": "https://example.com/files/emma-science-project.jpg",
+      "size": 1024000,
+      "uploadedAt": "2024-01-14T10:00:00Z",
+      "sharedWith": ["jxpPcwosGXV8HeRR4ZrFOjeNv4i1", "cSrXlu92HWVGFrx5MBEMOjNSyw03"],
+      "isTestData": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": "test-notification-1",
+      "userId": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+      "title": "New Message from Teacher",
+      "message": "You have a new message from Test Teacher about Emma's progress.",
+      "type": "message",
+      "read": false,
+      "timestamp": "2024-01-15T08:00:00Z",
+      "actionUrl": "/messages",
+      "isTestData": true
+    },
+    {
+      "id": "test-notification-2",
+      "userId": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+      "title": "Progress Report Available",
+      "message": "Emma's latest progress report is now available.",
+      "type": "progress",
+      "read": false,
+      "timestamp": "2024-01-14T10:00:00Z",
+      "actionUrl": "/progress",
+      "isTestData": true
+    },
+    {
+      "id": "test-notification-3",
+      "userId": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+      "title": "New File Uploaded",
+      "message": "Test Parent uploaded a new file for Emma's science project.",
+      "type": "file",
+      "read": true,
+      "timestamp": "2024-01-14T10:00:00Z",
+      "actionUrl": "/files",
+      "isTestData": true
+    }
+  ]
+}

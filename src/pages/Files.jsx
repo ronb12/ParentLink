@@ -20,17 +20,27 @@ const Files = () => {
   const [selectedFile, setSelectedFile] = useState(null);
 
   useEffect(() => {
-    loadFiles();
-  }, []);
+    if (user && user.uid) {
+      loadFiles();
+    }
+  }, [user]);
 
   const loadFiles = async () => {
     try {
       setLoading(true);
+      if (!user || !user.uid) {
+        console.error('User not authenticated');
+        setFiles([]);
+        return;
+      }
+      
+      // Get files shared with this user
       const filesData = await getFiles(user.uid);
       setFiles(filesData);
     } catch (error) {
       console.error('Error loading files:', error);
       toast.error('Failed to load files');
+      setFiles([]);
     } finally {
       setLoading(false);
     }

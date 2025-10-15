@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-10-15T15:17:33.150Z",
+  "summary": {
+    "passed": 10,
+    "failed": 1,
+    "total": 11,
+    "successRate": "90.9"
+  },
+  "testErrors": [
+    {
+      "test": "Parent Cannot Access Students Page",
+      "error": "Students page should not be accessible to parents"
+    }
+  ],
+  "consoleErrors": [
+    "Error loading files: JSHandle@error"
+  ]
+}
