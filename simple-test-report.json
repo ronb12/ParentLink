@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-15T14:51:44.264Z",
+  "summary": {
+    "passed": 5,
+    "failed": 2,
+    "total": 7,
+    "successRate": "71.4"
+  },
+  "testErrors": [
+    {
+      "test": "Parent Login Works",
+      "error": "Login failed - still on login page"
+    },
+    {
+      "test": "Teacher Login Works",
+      "error": "Login failed - still on login page"
+    }
+  ],
+  "consoleErrors": []
+}

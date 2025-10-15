@@ -1,0 +1,23 @@
+{"users": [
+{
+  "localId": "cSrXlu92HWVGFrx5MBEMOjNSyw03",
+  "email": "teacher@test.com",
+  "emailVerified": false,
+  "passwordHash": "FjimLu98QkDjrid9oU5sw0gqpJWmzFvEC4o0jJAFS9+zi63LtcZEmNqBpDMahibLb+1XJRKeV+FgoPPupMPqKA==",
+  "salt": "JsAEs7H1lAE1UQ==",
+  "displayName": "Test Teacher",
+  "lastSignedInAt": "1760539719922",
+  "createdAt": "1760539719922",
+  "providerUserInfo": []
+},
+{
+  "localId": "jxpPcwosGXV8HeRR4ZrFOjeNv4i1",
+  "email": "parent@test.com",
+  "emailVerified": false,
+  "passwordHash": "tKnlnCrnHUIci8J2pPQW1+NZExAITNh329cC/5zcq7fL11CibWshMIHxivPjZNjfWzipb1j8X1v3ZNDCpSabGw==",
+  "salt": "X3iuh8rh97+DDg==",
+  "displayName": "Test Parent",
+  "lastSignedInAt": "1760539557355",
+  "createdAt": "1760539557355",
+  "providerUserInfo": []
+}]}
