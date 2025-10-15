@@ -9,7 +9,7 @@ const firebaseConfig = {
   projectId: "parentlink-2024-app",
   storageBucket: "parentlink-2024-app.firebasestorage.app",
   messagingSenderId: "319585389643",
-  appId: "1:319585389643:web:7b6dbea7bf76e6dcff91ce"
+  appId: "1:319585389643:web:0e70672e2be497adff91ce"
 };
 
 // Initialize Firebase
