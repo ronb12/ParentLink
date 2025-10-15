@@ -1,0 +1,43 @@
+
+<svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="book" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="36" cy="36" r="36" fill="url(#bg)"/>
+  
+  <!-- Book icon -->
+  <rect x="18" y="21.599999999999998" width="36" height="28.8" rx="2" fill="url(#book)" stroke="#e2e8f0" stroke-width="1"/>
+  
+  <!-- Book pages -->
+  <line x1="25.2" y1="25.2" x2="25.2" y2="46.800000000000004" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="28.8" y1="25.2" x2="28.8" y2="46.800000000000004" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="32.4" y1="25.2" x2="32.4" y2="46.800000000000004" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="36" y1="25.2" x2="36" y2="46.800000000000004" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="39.6" y1="25.2" x2="39.6" y2="46.800000000000004" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="43.199999999999996" y1="25.2" x2="43.199999999999996" y2="46.800000000000004" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="46.800000000000004" y1="25.2" x2="46.800000000000004" y2="46.800000000000004" stroke="#cbd5e1" stroke-width="1"/>
+  
+  <!-- Graduation cap -->
+  <path d="M14.4 36 Q21.599999999999998 28.8 28.8 36 L43.199999999999996 36 Q50.4 28.8 57.6 36 L57.6 39.6 L14.4 39.6 Z" fill="#fbbf24"/>
+  
+  <!-- Tassel -->
+  <line x1="57.6" y1="36" x2="61.199999999999996" y2="43.199999999999996" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="61.199999999999996" cy="43.199999999999996" r="2" fill="#f59e0b"/>
+  
+  <!-- Communication lines -->
+  <path d="M10.799999999999999 54 Q14.4 50.4 18 54" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M54 54 Q57.6 50.4 61.199999999999996 54" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.8"/>
+  
+  <!-- Small dots for communication -->
+  <circle cx="14.4" cy="54" r="1.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="57.6" cy="54" r="1.5" fill="#ffffff" opacity="0.8"/>
+</svg>

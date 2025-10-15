@@ -1,0 +1,43 @@
+
+<svg width="144" height="144" viewBox="0 0 144 144" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="book" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="72" cy="72" r="72" fill="url(#bg)"/>
+  
+  <!-- Book icon -->
+  <rect x="36" y="43.199999999999996" width="72" height="57.6" rx="2" fill="url(#book)" stroke="#e2e8f0" stroke-width="1"/>
+  
+  <!-- Book pages -->
+  <line x1="50.4" y1="50.4" x2="50.4" y2="93.60000000000001" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="57.6" y1="50.4" x2="57.6" y2="93.60000000000001" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="64.8" y1="50.4" x2="64.8" y2="93.60000000000001" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="72" y1="50.4" x2="72" y2="93.60000000000001" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="79.2" y1="50.4" x2="79.2" y2="93.60000000000001" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="86.39999999999999" y1="50.4" x2="86.39999999999999" y2="93.60000000000001" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="93.60000000000001" y1="50.4" x2="93.60000000000001" y2="93.60000000000001" stroke="#cbd5e1" stroke-width="1"/>
+  
+  <!-- Graduation cap -->
+  <path d="M28.8 72 Q43.199999999999996 57.6 57.6 72 L86.39999999999999 72 Q100.8 57.6 115.2 72 L115.2 79.2 L28.8 79.2 Z" fill="#fbbf24"/>
+  
+  <!-- Tassel -->
+  <line x1="115.2" y1="72" x2="122.39999999999999" y2="86.39999999999999" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="122.39999999999999" cy="86.39999999999999" r="2" fill="#f59e0b"/>
+  
+  <!-- Communication lines -->
+  <path d="M21.599999999999998 108 Q28.8 100.8 36 108" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M108 108 Q115.2 100.8 122.39999999999999 108" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.8"/>
+  
+  <!-- Small dots for communication -->
+  <circle cx="28.8" cy="108" r="1.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="115.2" cy="108" r="1.5" fill="#ffffff" opacity="0.8"/>
+</svg>

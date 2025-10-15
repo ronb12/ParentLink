@@ -15,6 +15,7 @@ import {
   X 
 } from 'lucide-react';
 import toast from 'react-hot-toast';
+import PWAStatus from './PWAStatus';
 
 const Navbar = () => {
   const { user, userData, isAuthenticated } = useAuth();
@@ -103,6 +104,7 @@ const Navbar = () => {
 
           {/* User Menu */}
           <div className="hidden md:flex items-center space-x-4">
+            <PWAStatus />
             <div className="text-sm">
               <p className="font-medium text-gray-900">{userData?.name}</p>
               <p className="text-gray-500 capitalize">{userData?.role}</p>

@@ -1,0 +1,43 @@
+
+<svg width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="book" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="48" cy="48" r="48" fill="url(#bg)"/>
+  
+  <!-- Book icon -->
+  <rect x="24" y="28.799999999999997" width="48" height="38.400000000000006" rx="2" fill="url(#book)" stroke="#e2e8f0" stroke-width="1"/>
+  
+  <!-- Book pages -->
+  <line x1="33.599999999999994" y1="33.599999999999994" x2="33.599999999999994" y2="62.400000000000006" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="38.400000000000006" y1="33.599999999999994" x2="38.400000000000006" y2="62.400000000000006" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="43.2" y1="33.599999999999994" x2="43.2" y2="62.400000000000006" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="48" y1="33.599999999999994" x2="48" y2="62.400000000000006" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="52.800000000000004" y1="33.599999999999994" x2="52.800000000000004" y2="62.400000000000006" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="57.599999999999994" y1="33.599999999999994" x2="57.599999999999994" y2="62.400000000000006" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="62.400000000000006" y1="33.599999999999994" x2="62.400000000000006" y2="62.400000000000006" stroke="#cbd5e1" stroke-width="1"/>
+  
+  <!-- Graduation cap -->
+  <path d="M19.200000000000003 48 Q28.799999999999997 38.400000000000006 38.400000000000006 48 L57.599999999999994 48 Q67.19999999999999 38.400000000000006 76.80000000000001 48 L76.80000000000001 52.800000000000004 L19.200000000000003 52.800000000000004 Z" fill="#fbbf24"/>
+  
+  <!-- Tassel -->
+  <line x1="76.80000000000001" y1="48" x2="81.6" y2="57.599999999999994" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="81.6" cy="57.599999999999994" r="2" fill="#f59e0b"/>
+  
+  <!-- Communication lines -->
+  <path d="M14.399999999999999 72 Q19.200000000000003 67.19999999999999 24 72" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M72 72 Q76.80000000000001 67.19999999999999 81.6 72" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.8"/>
+  
+  <!-- Small dots for communication -->
+  <circle cx="19.200000000000003" cy="72" r="1.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="76.80000000000001" cy="72" r="1.5" fill="#ffffff" opacity="0.8"/>
+</svg>
