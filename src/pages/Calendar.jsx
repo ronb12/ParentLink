@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { getEvents, createEvent } from '../firebase/firestore';
-import { Plus, Calendar, Clock, MapPin, Users } from 'lucide-react';
+import { Plus, Calendar as CalendarIcon, Clock, MapPin, Users } from 'lucide-react';
 import { format, startOfMonth, endOfMonth, eachDayOfInterval, isSameMonth, isSameDay, addMonths, subMonths } from 'date-fns';
 import toast from 'react-hot-toast';
 
-const Calendar = () => {
+const CalendarPage = () => {
   const { userData, isTeacher } = useAuth();
   const [events, setEvents] = useState([]);
   const [currentDate, setCurrentDate] = useState(new Date());
@@ -385,4 +385,4 @@ const Calendar = () => {
   );
 };
 
-export default Calendar;
+export default CalendarPage;
