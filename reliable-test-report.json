@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-10-15T15:09:26.373Z",
+  "summary": {
+    "passed": 7,
+    "failed": 3,
+    "total": 10,
+    "successRate": "70.0"
+  },
+  "testErrors": [
+    {
+      "test": "Parent Messages Page",
+      "error": "Waiting for selector `h1` failed"
+    },
+    {
+      "test": "Parent Progress Page",
+      "error": "Waiting for selector `h1` failed"
+    },
+    {
+      "test": "Parent Cannot Access Students Page",
+      "error": "Students page should not be accessible to parents"
+    }
+  ],
+  "consoleErrors": [
+    "Error loading files: JSHandle@error"
+  ]
+}
