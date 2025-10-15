@@ -51,16 +51,26 @@ ParentLink is a comprehensive educational communication platform designed to bri
 ### 🔔 Notifications
 - Real-time updates
 - Priority-based alerts
+- Push notifications support
 - Email notifications (future enhancement)
+
+### 📱 Progressive Web App (PWA)
+- Install on any device (iOS, Android, Desktop)
+- Offline functionality with service worker
+- App shortcuts for quick access
+- Native app-like experience
+- Education-themed icons and branding
 
 ## Technology Stack
 
 - **Frontend**: React 18, Vite, Tailwind CSS
 - **Backend**: Firebase (Authentication, Firestore, Storage)
-- **Icons**: Lucide React
+- **PWA**: Progressive Web App with offline support
+- **Icons**: Lucide React + Custom Education-themed Icons
 - **Date Handling**: date-fns
-- **Notifications**: React Hot Toast
+- **Notifications**: React Hot Toast + Push Notifications
 - **Routing**: React Router DOM
+- **Service Worker**: Custom offline-first implementation
 
 ## Getting Started
 
